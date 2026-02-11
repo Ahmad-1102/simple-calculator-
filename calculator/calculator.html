@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <div class="grid-all">
+            <div>
+                <p class="js-calculation calculation-write"></p>
+            </div>
+            <div>
+                <p class="grid-p">
+                    <button onclick="
+                        updateCalculator('1')
+                        updateDisplay();
+                    ">1</button>
+                    <button onclick="
+                        updateCalculator('2')
+                        updateDisplay();
+                    ">2</button>
+                    <button onclick="
+                        updateCalculator('3')
+                        updateDisplay();
+                    ">3</button>
+                    <button class="operator" onclick="
+                        updateCalculator(' + ')
+                        updateDisplay();
+                    ">+</button>
+                </p>
+            </div>
+            <div>
+                <p class="grid-p">
+                    <button onclick="
+                        updateCalculator('4')
+                        updateDisplay();
+                    ">4</button>
+                    <button onclick="
+                        updateCalculator('5')
+                        updateDisplay();
+                    ">5</button>
+                    <button onclick="
+                        updateCalculator('6')
+                        updateDisplay();
+                    ">6</button>
+                    <button class="operator" onclick="
+                        updateCalculator(' - ')
+                        updateDisplay();
+                    ">-</button>
+                </p>
+            </div>
+            <div>
+                <p class="grid-p">
+                    <button onclick="
+                        updateCalculator('7')
+                        updateDisplay();
+                    ">7</button>
+                    <button onclick="
+                        updateCalculator('8')
+                        updateDisplay();
+                    ">8</button>
+                    <button onclick="
+                        updateCalculator('9')
+                        updateDisplay();
+                    ">9</button>
+                    <button class="operator" onclick="
+                        updateCalculator(' * ')
+                        updateDisplay();
+                    ">*</button>
+                </p>
+            </div>
+            <div>
+                <p class="grid-p">
+                    <button onclick="
+                        updateCalculator('0')
+                        updateDisplay();
+                    ">0</button>
+                    <button onclick="
+                        updateCalculator('.')
+                        updateDisplay();
+                    ">.</button>
+                    <button onclick="
+                        calculateResult();
+                    ">=</button>
+                    <button class="operator" onclick="
+                        updateCalculator(' / ')
+                        updateDisplay();
+                    ">/</button>
+                </p>
+            </div>
+            <div>
+                <p class="grid-p">
+                    <button onclick="
+                        calculation = '';
+                        saveCalculation()
+                        updateDisplay();
+                    ">C</button>
+                    <button class="backspace-btn" onclick="backspace()"><img src="backspace-svgrepo-com.svg" class="backspace-icon"></button>
+                </p>
+            </div>
+        </div>
+        <script src="calculator.js"></script>
+    </body>
+    </html>
