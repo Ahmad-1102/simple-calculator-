@@ -48,6 +48,7 @@ What I Learned
 - DOM manipulation and event handling
 - CSS transitions and hover effects
 - User-select prevention for better UX
+
 Key Features Explained
 Persistent Storage
 Calculations are automatically saved to localStorage, so your work persists even after closing the browser.
