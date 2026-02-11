@@ -70,13 +70,13 @@ Future Improvements
 - Copy result to clipboard
 
 Known Issues
-None currently! Feel free to report any bugs you find.
+- None currently! Feel free to report any bugs you find.
 
 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+- Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
 License
-This project is MIT licensed.
+- This project is MIT licensed.
 
 Author:
 Ahmad
