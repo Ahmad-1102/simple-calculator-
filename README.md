@@ -85,7 +85,6 @@ GitHub: @Ahmad-1102
 
 LinkedIn: Ahmad Guennon
 
-Inspiration
 Built as a learning project to practice:
 - DOM manipulation
 - Event handling
